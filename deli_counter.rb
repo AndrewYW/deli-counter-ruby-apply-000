@@ -1,7 +1,7 @@
 # Write your code here.
 
 def line(arr)
-  if arr.length == 0
+  if arr.empty?
     puts "The line is currently empty."
   else
     str = "The line is currently:"
