@@ -6,7 +6,7 @@ def line(arr)
   else
     str = "The line is currently: "
     arr.each_with_index{|name, idx|
-      str << "#{idx+1}. #{name} "
+      str << " #{idx+1}. #{name}"
     }
     str
   end
