@@ -4,11 +4,11 @@ def line(arr)
   if arr.empty?
     puts "The line is currently empty."
   else
-    str = "The line is currently:"
-    arr.each_with_index(1) do |name, idx|
-      str << " #{idx}. #{name}"
+    current_line = "The line is currently:"
+    deli.each.with_index(1) do |person, i|
+      current_line << " #{i}. #{person}"
     end
-    puts str
+    puts current_line
   end
 end
 
