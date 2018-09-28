@@ -9,7 +9,7 @@ def line(arr)
       str += "#{idx+1}. #{name} "
     }
   end
-  str
+  puts str
 end
 
 def take_a_number(arr, name)
