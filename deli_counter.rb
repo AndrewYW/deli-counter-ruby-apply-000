@@ -8,8 +8,8 @@ def line(arr)
     arr.each_with_index{|name, idx|
       str += "#{idx+1}. #{name} "
     }
+    str
   end
-  puts str
 end
 
 def take_a_number(arr, name)
